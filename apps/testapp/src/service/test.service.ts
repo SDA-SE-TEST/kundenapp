@@ -1,5 +1,4 @@
 function example1 () {
-  // ruleid: jwt-exposed-credentials
   const jsonwt = require('jsonwebtoken')
   const token1 = jsonwt.sign({password: 123}, 'secret', {some: 'params'})
 }
